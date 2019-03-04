@@ -10,4 +10,5 @@ class Actor < ActiveRecord::Base
     self.characters.map do |c|
       "#{self.character.name}"
     end
+  end
 end
